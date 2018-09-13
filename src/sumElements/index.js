@@ -16,7 +16,8 @@ const sumElements = arr => {
   for (let i = 0; i < arr.length; i++ ) {
     sum += arr[i];
   }
-  return sum;
+  let result = parseInt(sum, 10);
+  return result;
 };
 
 export default sumElements;
