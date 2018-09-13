@@ -9,6 +9,11 @@
  */
 const turnMeBaby = str => {
   /* your logic here...*/
+  let splitStr = str.split("");
+  let reverseStr = splitStr.reverse();
+  let joinStr = reverseStr.join("");
+  return joinStr;
+
 };
 
 export default turnMeBaby;
