@@ -10,3 +10,4 @@ const getFlags = arr => {
 };
 
 export default getFlags;
+
